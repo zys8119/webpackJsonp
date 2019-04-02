@@ -1,10 +1,4 @@
-# webpackJsonp
-为解决 处理vue打包微信白屏 webpackJsonp 及webpack插件处理
-
-##配置
-
-```angular2
-{
+module.exports = {
     //需要处理的文件路径
     filePath:path.join(__dirname, '../../dist/index.html'),
     //替换字符串条件
@@ -22,5 +16,4 @@
     done:true,
     //webpack插件钩子列表
     plugin:null
-}
-```
+};
