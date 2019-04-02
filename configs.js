@@ -1,3 +1,4 @@
+var path= require("path");
 module.exports = {
     //需要处理的文件路径
     filePath:path.join(__dirname, '../../dist/index.html'),

@@ -1,12 +1,11 @@
 var fs= require("fs");
-var path= require("path");
 const webpackJsonp_init = require("./webpackJsonp_init");
 const configs = require("./configs");
 class webpackJsonp {
-    constructor(configs = {},callBack = new Function()){
+    constructor(confs = {},callBack = new Function()){
         this.configs = configs;
-        for (let k in configs) {
-            this.configs[k] = configs[k];
+        for (let k in confs) {
+            this.configs[k] = confs[k];
         }
     }
 
