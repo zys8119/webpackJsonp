@@ -1,5 +1,6 @@
 declare const require: any;
 declare const process: any;
+declare const module: any;
 var fs= require("fs");
 import webpackJsonp_init from "./webpackJsonp_init"
 import configs from "./configs"
@@ -59,3 +60,4 @@ class webpackJsonp {
         }
     }
 }
+module.exports = webpackJsonp;

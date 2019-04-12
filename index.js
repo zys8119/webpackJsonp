@@ -67,3 +67,4 @@ var webpackJsonp = /** @class */ (function () {
     };
     return webpackJsonp;
 }());
+module.exports = webpackJsonp;
