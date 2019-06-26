@@ -23,6 +23,11 @@ class webpackJsonp {
                     let dirPath = this.configs.filePath;
                     if(fs.existsSync(dirPath)){
                         let data = fs.readFileSync(dirPath,{encoding :"utf8"});
+                        if(this.configs.pluginDone){
+                            data = this.configs.pluginDone(data);
+                            fs.writeFileSync(dirPath, data);
+                            return;
+                        }
                         let scriptAll = data.match(/<script(.|\s).*?><\/script>/img);
                         let resData = scriptAll.map(e=>{
                             return {

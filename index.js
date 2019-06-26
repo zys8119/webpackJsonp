@@ -30,6 +30,11 @@ var webpackJsonp = /** @class */ (function () {
                     var dirPath = _this.configs.filePath;
                     if (fs.existsSync(dirPath)) {
                         var data_1 = fs.readFileSync(dirPath, { encoding: "utf8" });
+                        if (_this.configs.pluginDone) {
+                            data_1 = _this.configs.pluginDone(data_1);
+                            fs.writeFileSync(dirPath, data_1);
+                            return;
+                        }
                         var scriptAll = data_1.match(/<script(.|\s).*?><\/script>/img);
                         var resData_1 = scriptAll.map(function (e) {
                             return {

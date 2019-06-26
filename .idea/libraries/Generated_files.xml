@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/configs.js" />
+        <item url="file://$PROJECT_DIR$/index.js" />
+        <item url="file://$PROJECT_DIR$/typeScript/index.js" />
+        <item url="file://$PROJECT_DIR$/typeScript/interface.js" />
+        <item url="file://$PROJECT_DIR$/typeScript/type.js" />
+        <item url="file://$PROJECT_DIR$/webpackJsonp_init.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/configs.js" />
+      <root url="file://$PROJECT_DIR$/index.js" />
+      <root url="file://$PROJECT_DIR$/typeScript/index.js" />
+      <root url="file://$PROJECT_DIR$/typeScript/interface.js" />
+      <root url="file://$PROJECT_DIR$/typeScript/type.js" />
+      <root url="file://$PROJECT_DIR$/webpackJsonp_init.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

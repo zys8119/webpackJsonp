@@ -9,5 +9,6 @@ export default <InterfaceConfigsOption> {
     exit:false,
     callBack:new Function(),
     done:true,
-    plugin:null
+    plugin:null,
+    pluginDone:null,
 }

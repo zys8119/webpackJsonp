@@ -13,4 +13,6 @@ export interface InterfaceConfigsOption {
     done?:boolean,
     //webpack插件钩子列表
     plugin:null|any[]
+    //webpack插件钩子列表
+    pluginDone?(fileData):void
 }
